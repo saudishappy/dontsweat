@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="WEBSITE 5.CSS">
+   
+</head>
+<style>
+    body{
+            background-color: rgb(255, 255, 255);
+            overflow-x: hidden;
+    }
+    #contact #section2{
+        font-size: xx-large;
+        font-family: cursive;
+    }
+
+    #maplogo{
+        margin-bottom: 20px;
+        font-size: xx-large;
+    }
+    button{
+        font-size: xx-large;
+    }
+    #contact{
+        margin-top: 150px;
+    }
+</style>
+<body>
+
+    <div id="header">
+        <nav id="navbar">
+            <h1>SAUD'S RESTURANT :)</h1>
+            <ul>
+        
+                <li class="nav1"><a href="index.html">HOME</a></li>
+    
+                <li class="nav1"> <a href="about.html">ABOUT US </a></li>
+    
+                 <li class="nav1"><a href="OUR CHEFS.HTML">OUR CHEFS</a></li>
+    
+                <li class="nav1"><a href="CONTACT.html">CONTACT</a></li>
+    
+                <li class="nav2"><a href="">03282300129</a></li>
+            </ul>
+        </nav>
+                <div id="mobile_menu">
+                    <ul>
+        
+                        <li class="nav1"><a href="index.html">HOME</a></li>
+            
+                        <li class="nav1"> <a href="about.html">ABOUT </a></li>
+            
+                         <li class="nav1"><a href="OUR CHEFS.HTML">OUR CHEFS</a></li>
+            
+                        <li class="nav1"><a href="">CONTACT</a></li>
+            
+                        <li class="nav2"><a href="">03282300129</a></li>
+                    </ul>
+                </div>
+    
+        </div>
+    
+    <div id="contact">
+        <center><h2 id="section2"> CONTACT US? </h2></center>
+        <div id="contact_row">
+            <div class="contact_col">
+                <div>
+                    <p id="maplogo">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                  
+                    </p>
+                    <p id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.401564991386!2d67.09850259678954!3d24.918386500000018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb339789dae76e5%3A0x340a2e4983b1c4b6!2sGulshan%20e%20Iqbal%20Block%2011!5e0!3m2!1sen!2s!4v1715427196127!5m2!1sen!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </p>
+
+
+                    <p>
+                        <a href="https://mail.google.com/mail/u/0/#inbox">
+                            <i class="fa-solid fa-envelope"></i>
+                            saudgptacc456@gmail.com
+                        </a>
+                    </p>
+                    
+                    <p>
+                        <a href="">
+                            <i class="fa-solid fa-phone"></i>
+                                    92+03282300129
+                        </a>
+                    </p >
+                        <h3 id="follow">FOLLOW US ?</h3>
+                        <p id="social">
+                            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href=""><i class="fa-brands fa-discord"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-messenger"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        </p>
+                        
+                </div>
+            </div>
+            <div class="contact_col">
+                        <form onsubmit="return formvalidate()" action="WEBSITE 5 HOME PAGE.HTML">
+                            <center><h3>GET IN TOUCH WITH US IF U WANT TO?</h3>
+                                <br>
+                            <input type="text" placeholder="NAME" id="feild1">
+                            <input type="email" placeholder="EMAIL" id="feild2">
+                            <input type="password" placeholder="ENTER UR PASSWORD" id="feild3">
+                            <input type="tel" placeholder="PHONE NUMBER" id="feild4">
+                            <input type="text" placeholder="ANY QUESTIONS?" id="feild5">
+                            </center>
+                                <br><br>
+                            <button>SEND MESSAGE</button>
+                        </form>
+            </div>
+        </div>
+    </div>
+    <div id="goback">
+        <a href="WEBSITE 5 HOME PAGE.HTML"><h2>GO BACK TO THE HOMEPAGE?</h2></a>
+    </div>
+    <script src="contact.js"></script>
+
+    <script>
+        function formvalidate(){
+            var input1 = document.getElementById("feild1").value;
+            var input2 = document.getElementById("feild2").value;
+            var input3 = document.getElementById("feild3").value;
+            var input4 = document.getElementById("feild4").value;
+            var input5 = document.getElementById("feild5").value;
+
+
+            if(input1 == "" || input2 == "" || input3 == ""|| input4 == "" || input5 == "")
+            {
+                alert("MUST FILL ALL THE FEILDS!!!!!!!")
+                return false;
+        }
+        
+        else{
+            true;
+        }
+
+        }
+    </script>
+
+
+
+    
+    
+</body>
+</html>
